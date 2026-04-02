@@ -1,9 +1,13 @@
 # HA Adaptive Dialog Card
 
-A URL hash-driven popup dialog card that opens when the URL hash matches the configured value. Uses the native `ha-adaptive-dialog` for responsive bottom-sheet behavior on mobile.
+A URL hash-driven popup dialog card that opens when the URL hash matches the configured value. Uses the native `ha-adaptive-dialog` (new since 2026.3.0) for responsive bottom-sheet behavior on mobile.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/v/release/thecodingdad/ha-adaptive-dialog-card)](https://github.com/thecodingdad/ha-adaptive-dialog-card/releases)
+
+## Screenshot
+
+![HA Adaptive Dialog Card](screenshots/screenshot.png)
 
 ## Features
 
@@ -17,11 +21,12 @@ A URL hash-driven popup dialog card that opens when the URL hash matches the con
 - Mode change expansion on header click
 - Native HA dialog styling and animations
 - Jinja2 template support for title
+- Popups can be opened from any view of the same dashboard
 - EN/DE multilanguage support
 
 ## Prerequisites
 
-- Home Assistant 2024.1.0 or newer
+- Home Assistant 2026.3.0 or newer
 - HACS (recommended for installation)
 
 ## Installation
