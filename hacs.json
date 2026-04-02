@@ -2,5 +2,5 @@
   "name": "HA Adaptive Dialog Card",
   "render_readme": true,
   "filename": "ha-adaptive-dialog-card.js",
-  "homeassistant": "2024.1.0"
+  "homeassistant": "2026.3.0"
 }
